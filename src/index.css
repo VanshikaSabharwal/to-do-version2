@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Grenze+Gotisch:wght@100..900&family=Merienda:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Abril Fatface", serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.toDoList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shepherdTourBtn {
+  margin-top: 1rem;
+  padding: 5px 8px;
+  font-size: 1rem;
+  border: 2px solid #211313;
+  border-radius: 10px;
+  color: #451e1e;
+}
+.addBtn {
+  width: 3rem;
+  height: 2rem;
+  background: whitesmoke;
+  border: 2px solid #211313;
+  border-radius: 7px;
+}
+.dateComponent {
+  background-color: #ffeae5;
+  padding: 13px 36px;
+  position: absolute;
+  right: 0;
+  border-bottom-left-radius: 75px;
+}
+.heading {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.toDoHeading {
+  font-family: "Abril Fatface", serif;
+  color: #9d5a65;
+}
+.planner {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.3rem;
+  color: #c2c3f3;
+}
+.new-item-form input::placeholder {
+  text-align: center;
+}
+.new-item-form {
+  position: relative;
+  top: 5rem;
+}
+.new-item-form button {
+  border: none;
+  background-color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+  left: 1rem;
+  top: 0.3rem;
+}
+.new-item-form input {
+  width: 15rem;
+  border: none;
+  text-align: center;
+  background: #c2c3f3;
+  border-radius: 5px;
+  height: 2rem;
+}
+.list {
+  position: relative;
+  top: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  flex-direction: column;
+}
+.list li {
+  display: flex;
+  gap: 3rem;
+  background: #ffeae5;
+  padding: 10px 10px;
+  border-radius: 32px;
+  width: 16rem;
+  justify-content: space-between;
+}
+.list li label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 3px;
+}
+.list li label .checkbox {
+  width: 24px;
+  height: 20px;
+  position: relative;
+  top: 4px;
+  right: 4px;
+  cursor: pointer;
+}
+.deleteBtn {
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  width: 1.5rem;
+  display: flex;
+  height: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.formContent {
+  position: relative;
+  /* top: 5rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bi-plus-lg {
+  position: relative;
+  left: 1rem;
+  font-weight: 600;
+}
+
+/* styling */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  top: 4rem;
+  background: aliceblue;
+  width: 22rem;
+  border: 2px dashed;
+  height: 25rem;
+  border-radius: 12px;
+  scroll-behavior: smooth;
+  overflow: scroll;
+}
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.todo-item {
+  display: flex;
+}
+.todo-item li {
+  background-color: #edc4d6;
+  cursor: pointer;
+  width: 15rem;
+  padding: 5px 8px;
+}
+.cross {
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  transform: rotate(136deg);
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  border-radius: 63%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.todo-item li:nth-child(3n) {
+  background-color: #c2c3f3;
+}
+form {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
