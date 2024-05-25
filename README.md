@@ -12,7 +12,7 @@ Follow these steps to set up the project:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/VanshikaSabharwal/to-do-version2.git
 ```
 
 2. Navigate into the project directory:
