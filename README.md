@@ -18,7 +18,7 @@ git clone https://github.com/VanshikaSabharwal/to-do-version2.git
 2. Navigate into the project directory:
 
 ```bash
-cd your-repo
+cd to-do-version2
 ```
 
 3. Install dependencies using npm or yarn:
