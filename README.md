@@ -43,7 +43,7 @@ yarn dev
 
 ```
 
-5. Open http://localhost:3000 in your browser to view the app.
+5. Open http://localhost:5173 in your browser to view the app.
 
 Currently, two official plugins are available:
 
@@ -54,7 +54,3 @@ Currently, two official plugins are available:
 
 1. plus icon from flaticon.com
    <a href="https://www.flaticon.com/free-icons/plus" title="plus icons">Plus icons created by Freepik - Flaticon</a>
-
-```
-
-```
