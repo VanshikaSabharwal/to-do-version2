@@ -25,8 +25,12 @@ cd your-repo
 
 ```bash
 npm install
-# or
-yarn
+```
+
+or
+
+```
+yarn add
 ```
 
 4. Start the development server:
